@@ -1,0 +1,7 @@
+*.txt
+*.dll
+*.exe
+*test.go
+*.ttf
+*.log
+.idea
