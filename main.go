@@ -21,7 +21,7 @@ func InitQXInfo() string {
 		Name:        "httpapi",
 		Author:      "不慌",
 		Description: "不慌的httpapi",
-		Version:     "1.1",
+		Version:     "1.4",
 		Skey:        "QXASDOG5SD7A8SD",
 		Sdk:         "S1",
 	}
@@ -48,8 +48,7 @@ func init() {
 	qx.EventSendMsg = event.CommonEvent
 	qx.EventTransfer = event.CommonEvent
 	qx.EventWeChat = event.CommonEvent
-	qx.Set = func() {
-	}
+	qx.Set = func() {}
 
 }
 
